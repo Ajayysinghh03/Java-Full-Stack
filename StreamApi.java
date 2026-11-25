@@ -22,7 +22,12 @@ public class StreamApi {
         list.stream().filter(n-> n%2 == 0).sorted().forEach(n-> System.out.println(n));
 
         // Also there is parallelStream which we can use in place of stream, it uses multiple threads for faster computations but dont use with sorted() because for sorting need all number to the single threads
-        
+
+       // List<String> uname = names.stream().map(String::toUpperCase).toList(); , process inside map is called method reference which is showing that given method belongs to which class
+        // unames.forEach(System.out :: println); Another example of method reference
+
+        // Constructure reference will work similary to method referece and we as new as mwthod to create obj
+
 
     }
 }
