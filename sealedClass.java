@@ -1,6 +1,6 @@
 import java.util.*;
 
-sealed A permits A,B{
+sealed class A permits C,B{
 
 }
 
